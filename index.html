@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>기념일 계산기</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script
+            src="https://kit.fontawesome.com/cefe0c5b10.js"
+            crossorigin="anonymous"
+        ></script>
+        <link href="style.css" rel="stylesheet" />
+        <script defer src="anniversary.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="day1">
+                <h3>우리 만난지</h3>
+                <form id="display">
+                    만난 날 :
+                    <input type="text" placeholder="YYYY-MM-DD" id="days" />
+                    <a href="#;" onclick="setFirst()"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                </form>
+                <p id="accent" class="accent">
+                    <span style="font-size: 0.6em; font-style: italic"
+                        >며칠?</span
+                    >
+                </p>
+            </div>
+            <div class="bar">기념일 계산</div>
+            <div class="day2">
+                <ul>
+                    <li class="item-title">100일</li>
+                    <li class="item-date" id="date100"></li>
+                </ul>
+                <ul>
+                    <li class="item-title">200일</li>
+                    <li class="item-date" id="date200"></li>
+                </ul>
+                <ul>
+                    <li class="item-title">1년</li>
+                    <li class="item-date" id="year1"></li>
+                </ul>
+                <ul>
+                    <li class="item-title">500일</li>
+                    <li class="item-date" id="date500"></li>
+                </ul>
+                <ul>
+                    <li class="item-title">2년</li>
+                    <li class="item-date" id="year2"></li>
+                </ul>
+                <ul>
+                    <li class="item-title">1000일</li>
+                    <li class="item-date" id="date1000"></li>
+                </ul>
+                <ul>
+                    <li class="item-title">3년</li>
+                    <li class="item-date" id="year3"></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
