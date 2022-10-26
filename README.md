@@ -5,6 +5,7 @@ https://github.com/funnycom/js-basic-new
    
    
 ## 수정한 것
+https://github.com/leyua/anniversaryCalculator/settings/pages
 + 만난 날 입력 받기 추가 
   + enter로 입력 가능
   + 입력 받은 후 입력 받은 칸 제거
